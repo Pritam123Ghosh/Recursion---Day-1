@@ -11,6 +11,7 @@ public class Sumofnnatural {
         }
         sum += i;
         printSum(i + 1, n, sum);
+        System.out.println(i);
     }
 
     public static void main(String[] args) {
